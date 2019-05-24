@@ -2,8 +2,7 @@
 //  AppDelegate.m
 //  NativeRNApp
 //
-//  Created by 朱源浩 on 16/8/13.
-//  Copyright © 2016年 稀饭. All rights reserved.
+//  Created by mxy on 16/8/13.
 //
 
 #import "AppDelegate.h"
@@ -72,11 +71,6 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
 
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        
-//        [RNMethodTool emitMethod];
-//        
-//    });
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

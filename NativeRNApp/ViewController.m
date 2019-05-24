@@ -2,8 +2,7 @@
 //  ViewController.m
 //  NativeRNApp
 //
-//  Created by 朱源浩 on 16/8/13.
-//  Copyright © 2016年 稀饭. All rights reserved.
+//  Created by mxy on 16/8/13.
 //
 
 #import "ViewController.h"
@@ -21,12 +20,12 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 180, 30)];
     label.text = @"这是一个原生页面";
     [self.view addSubview:label];
-//    UIButton *but = [UIButton buttonWithType:UIButtonTypeSystem];
-//    [but setTitle:@"原生页面调用RN" forState:UIControlStateNormal];
-//    [but setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-//    [but addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
-//    but.frame = CGRectMake(100, 200, 180, 30);
-//    [self.view addSubview:but];
+    UIButton *but = [UIButton buttonWithType:UIButtonTypeSystem];
+    [but setTitle:@"原生页面调用RN" forState:UIControlStateNormal];
+    [but setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [but addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
+    but.frame = CGRectMake(100, 200, 180, 30);
+    [self.view addSubview:but];
     
     UIButton *nextBut = [UIButton buttonWithType:UIButtonTypeSystem];
     [nextBut setTitle:@"打开RN页面" forState:UIControlStateNormal];
@@ -45,7 +44,7 @@
     [self.navigationController pushViewController:viewController animated:YES];
 }
 -(IBAction)clicked:(id)sender{
-
+    [RNMethodTool emitMethod];
 }
 
 @end

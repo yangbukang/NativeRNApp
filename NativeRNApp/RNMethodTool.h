@@ -2,8 +2,7 @@
 //  RNMethodTool.h
 //  NativeRNApp
 //
-//  Created by Feifei on 2018/11/21.
-//  Copyright © 2018年 稀饭. All rights reserved.
+//  Created by mxy on 2018/11/21.
 //
 
 #import <Foundation/Foundation.h>
