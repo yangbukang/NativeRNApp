@@ -1,0 +1,123 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Base64 (1.0.1)
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - React/ART (0.56.0):
+    - React/Core
+  - React/Core (0.56.0):
+    - yoga (= 0.56.0.React)
+  - React/CxxBridge (0.56.0):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.56.0):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/fishhook (0.56.0)
+  - React/jschelpers (0.56.0):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.56.0)
+  - React/PrivateDatabase (0.56.0)
+  - React/RCTActionSheet (0.56.0):
+    - React/Core
+  - React/RCTAnimation (0.56.0):
+    - React/Core
+  - React/RCTBlob (0.56.0):
+    - React/Core
+  - React/RCTGeolocation (0.56.0):
+    - React/Core
+  - React/RCTImage (0.56.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.56.0):
+    - React/Core
+  - React/RCTNetwork (0.56.0):
+    - React/Core
+  - React/RCTPushNotification (0.56.0):
+    - React/Core
+  - React/RCTSettings (0.56.0):
+    - React/Core
+  - React/RCTText (0.56.0):
+    - React/Core
+  - React/RCTVibration (0.56.0):
+    - React/Core
+  - React/RCTWebSocket (0.56.0):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.56.0.React)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Base64 (~> 1.0.1)
+  - Folly (from `./ReactComponent/node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `./ReactComponent/node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React/ART (from `./ReactComponent/node_modules/react-native`)
+  - React/Core (from `./ReactComponent/node_modules/react-native`)
+  - React/CxxBridge (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTActionSheet (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTAnimation (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTGeolocation (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTImage (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTNetwork (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTPushNotification (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTSettings (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTText (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTVibration (from `./ReactComponent/node_modules/react-native`)
+  - React/RCTWebSocket (from `./ReactComponent/node_modules/react-native`)
+  - yoga (from `./ReactComponent/node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Base64
+    - boost-for-react-native
+    - DoubleConversion
+
+EXTERNAL SOURCES:
+  Folly:
+    :podspec: "./ReactComponent/node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "./ReactComponent/node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "./ReactComponent/node_modules/react-native"
+  yoga:
+    :path: "./ReactComponent/node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Base64: 4924bf3ca6fa559a5161ef717291bd450eb7bd1a
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
+  glog: b3b0330915eccea41c5cc9731a77cf564a9be5ea
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 3d8eabe951993a6821822a5db1e828d8aeb8fc66
+
+COCOAPODS: 1.5.3
