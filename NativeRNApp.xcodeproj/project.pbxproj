@@ -28,17 +28,8 @@
 		776541EE21AF8DA10003674B /* Mine.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541EB21AF8DA10003674B /* Mine.jsbundle */; };
 		776541EF21AF8DA10003674B /* myDetail.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541EC21AF8DA10003674B /* myDetail.jsbundle */; };
 		77A396C72229113700672CBD /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A396C52229113700672CBD /* Toast+UIView.m */; };
-		77A396CB2229134200672CBD /* YRJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A396C92229134200672CBD /* YRJSONAdapter.m */; };
-		77B575E8229788FF00E0C3C2 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575C8229788FF00E0C3C2 /* UIImage+Compress.m */; };
-		77B575E9229788FF00E0C3C2 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575CB229788FF00E0C3C2 /* UIImage+Common.m */; };
 		77B575EA229788FF00E0C3C2 /* UIApplication+Visible.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575CE229788FF00E0C3C2 /* UIApplication+Visible.m */; };
-		77B575EB229788FF00E0C3C2 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575D1229788FF00E0C3C2 /* UIColor+Expanded.m */; };
-		77B575EC229788FF00E0C3C2 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575D4229788FF00E0C3C2 /* UIAlertView+Blocks.m */; };
-		77B575ED229788FF00E0C3C2 /* NSNull+NullCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575D7229788FF00E0C3C2 /* NSNull+NullCast.m */; };
-		77B575EE229788FF00E0C3C2 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575D9229788FF00E0C3C2 /* NSData+MKBase64.m */; };
-		77B575EF229788FF00E0C3C2 /* UICollectionView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575DC229788FF00E0C3C2 /* UICollectionView+IndexPath.m */; };
 		77B575F0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575E0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m */; };
-		77B575F1229788FF00E0C3C2 /* NSObject+CustomBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575E3229788FF00E0C3C2 /* NSObject+CustomBlock.m */; };
 		D787E22B6383C86132339A70 /* libPods-NativeRNApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF3710C148F67D208A638DC /* libPods-NativeRNApp.a */; };
 /* End PBXBuildFile section */
 
@@ -99,28 +90,10 @@
 		77A396C222290F6200672CBD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		77A396C52229113700672CBD /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
 		77A396C62229113700672CBD /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
-		77A396C92229134200672CBD /* YRJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRJSONAdapter.m; sourceTree = "<group>"; };
-		77A396CA2229134200672CBD /* YRJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRJSONAdapter.h; sourceTree = "<group>"; };
-		77B575C8229788FF00E0C3C2 /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
-		77B575C9229788FF00E0C3C2 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
-		77B575CA229788FF00E0C3C2 /* UIImage+Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
-		77B575CB229788FF00E0C3C2 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
 		77B575CD229788FF00E0C3C2 /* UIApplication+Visible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Visible.h"; sourceTree = "<group>"; };
 		77B575CE229788FF00E0C3C2 /* UIApplication+Visible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Visible.m"; sourceTree = "<group>"; };
-		77B575D0229788FF00E0C3C2 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
-		77B575D1229788FF00E0C3C2 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
-		77B575D3229788FF00E0C3C2 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
-		77B575D4229788FF00E0C3C2 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
-		77B575D6229788FF00E0C3C2 /* NSNull+NullCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+NullCast.h"; sourceTree = "<group>"; };
-		77B575D7229788FF00E0C3C2 /* NSNull+NullCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+NullCast.m"; sourceTree = "<group>"; };
-		77B575D9229788FF00E0C3C2 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
-		77B575DA229788FF00E0C3C2 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
-		77B575DC229788FF00E0C3C2 /* UICollectionView+IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+IndexPath.m"; sourceTree = "<group>"; };
-		77B575DD229788FF00E0C3C2 /* UICollectionView+IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+IndexPath.h"; sourceTree = "<group>"; };
 		77B575DF229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
 		77B575E0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
-		77B575E3229788FF00E0C3C2 /* NSObject+CustomBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CustomBlock.m"; sourceTree = "<group>"; };
-		77B575E4229788FF00E0C3C2 /* NSObject+CustomBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CustomBlock.h"; sourceTree = "<group>"; };
 		8405A76002FE8DE93268ABF9 /* Pods-NativeRNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNApp/Pods-NativeRNApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,7 +219,6 @@
 		77A396C32229112400672CBD /* ThridLibs */ = {
 			isa = PBXGroup;
 			children = (
-				77A396C82229134200672CBD /* YRJSONAdapter */,
 				77A396C42229113700672CBD /* Toast */,
 			);
 			path = ThridLibs;
@@ -261,15 +233,6 @@
 			path = Toast;
 			sourceTree = "<group>";
 		};
-		77A396C82229134200672CBD /* YRJSONAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				77A396C92229134200672CBD /* YRJSONAdapter.m */,
-				77A396CA2229134200672CBD /* YRJSONAdapter.h */,
-			);
-			path = YRJSONAdapter;
-			sourceTree = "<group>";
-		};
 		77B575C5229788FE00E0C3C2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,28 +244,10 @@
 		77B575C6229788FF00E0C3C2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				77B575C7229788FF00E0C3C2 /* UIImage */,
 				77B575CC229788FF00E0C3C2 /* UIApplication */,
-				77B575CF229788FF00E0C3C2 /* UIColor */,
-				77B575D2229788FF00E0C3C2 /* UIAlertView */,
-				77B575D5229788FF00E0C3C2 /* NSNull */,
-				77B575D8229788FF00E0C3C2 /* NSData */,
-				77B575DB229788FF00E0C3C2 /* UICollectionView */,
 				77B575DE229788FF00E0C3C2 /* UIViewController */,
-				77B575E1229788FF00E0C3C2 /* NSObject */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		77B575C7229788FF00E0C3C2 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				77B575C8229788FF00E0C3C2 /* UIImage+Compress.m */,
-				77B575C9229788FF00E0C3C2 /* UIImage+Common.h */,
-				77B575CA229788FF00E0C3C2 /* UIImage+Compress.h */,
-				77B575CB229788FF00E0C3C2 /* UIImage+Common.m */,
-			);
-			path = UIImage;
 			sourceTree = "<group>";
 		};
 		77B575CC229788FF00E0C3C2 /* UIApplication */ = {
@@ -314,51 +259,6 @@
 			path = UIApplication;
 			sourceTree = "<group>";
 		};
-		77B575CF229788FF00E0C3C2 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				77B575D0229788FF00E0C3C2 /* UIColor+Expanded.h */,
-				77B575D1229788FF00E0C3C2 /* UIColor+Expanded.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		77B575D2229788FF00E0C3C2 /* UIAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				77B575D3229788FF00E0C3C2 /* UIAlertView+Blocks.h */,
-				77B575D4229788FF00E0C3C2 /* UIAlertView+Blocks.m */,
-			);
-			path = UIAlertView;
-			sourceTree = "<group>";
-		};
-		77B575D5229788FF00E0C3C2 /* NSNull */ = {
-			isa = PBXGroup;
-			children = (
-				77B575D6229788FF00E0C3C2 /* NSNull+NullCast.h */,
-				77B575D7229788FF00E0C3C2 /* NSNull+NullCast.m */,
-			);
-			path = NSNull;
-			sourceTree = "<group>";
-		};
-		77B575D8229788FF00E0C3C2 /* NSData */ = {
-			isa = PBXGroup;
-			children = (
-				77B575D9229788FF00E0C3C2 /* NSData+MKBase64.m */,
-				77B575DA229788FF00E0C3C2 /* NSData+MKBase64.h */,
-			);
-			path = NSData;
-			sourceTree = "<group>";
-		};
-		77B575DB229788FF00E0C3C2 /* UICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				77B575DC229788FF00E0C3C2 /* UICollectionView+IndexPath.m */,
-				77B575DD229788FF00E0C3C2 /* UICollectionView+IndexPath.h */,
-			);
-			path = UICollectionView;
-			sourceTree = "<group>";
-		};
 		77B575DE229788FF00E0C3C2 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,23 +266,6 @@
 				77B575E0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m */,
 			);
 			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		77B575E1229788FF00E0C3C2 /* NSObject */ = {
-			isa = PBXGroup;
-			children = (
-				77B575E2229788FF00E0C3C2 /* CustomBlock */,
-			);
-			path = NSObject;
-			sourceTree = "<group>";
-		};
-		77B575E2229788FF00E0C3C2 /* CustomBlock */ = {
-			isa = PBXGroup;
-			children = (
-				77B575E3229788FF00E0C3C2 /* NSObject+CustomBlock.m */,
-				77B575E4229788FF00E0C3C2 /* NSObject+CustomBlock.h */,
-			);
-			path = CustomBlock;
 			sourceTree = "<group>";
 		};
 		82C8E326BF95E35E22B0A1C0 /* Frameworks */ = {
@@ -561,27 +444,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B575EF229788FF00E0C3C2 /* UICollectionView+IndexPath.m in Sources */,
 				7702B49221AD19A200993BA6 /* RNMethodTool.m in Sources */,
-				77B575E8229788FF00E0C3C2 /* UIImage+Compress.m in Sources */,
 				7702B49D21AD19AC00993BA6 /* MainTabBarController.m in Sources */,
 				5EF6DA3A1D5EBC0C0003BFC2 /* ViewController.m in Sources */,
 				77A396C72229113700672CBD /* Toast+UIView.m in Sources */,
-				77A396CB2229134200672CBD /* YRJSONAdapter.m in Sources */,
 				5EF6DA371D5EBC0C0003BFC2 /* AppDelegate.m in Sources */,
 				7702B49F21AD19AC00993BA6 /* TabBarItem.m in Sources */,
 				7702B49C21AD19AC00993BA6 /* TabBar.m in Sources */,
 				77B575F0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
-				77B575EC229788FF00E0C3C2 /* UIAlertView+Blocks.m in Sources */,
-				77B575EB229788FF00E0C3C2 /* UIColor+Expanded.m in Sources */,
-				77B575EE229788FF00E0C3C2 /* NSData+MKBase64.m in Sources */,
-				77B575F1229788FF00E0C3C2 /* NSObject+CustomBlock.m in Sources */,
 				77B575EA229788FF00E0C3C2 /* UIApplication+Visible.m in Sources */,
-				77B575E9229788FF00E0C3C2 /* UIImage+Common.m in Sources */,
 				5EF6DA741D5F15790003BFC2 /* ReactViewController.m in Sources */,
 				5EF6DA341D5EBC0C0003BFC2 /* main.m in Sources */,
 				7702B49E21AD19AC00993BA6 /* TabBarBadge.m in Sources */,
-				77B575ED229788FF00E0C3C2 /* NSNull+NullCast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

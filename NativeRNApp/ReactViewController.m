@@ -10,10 +10,10 @@
 
 #define kHostName  @"http://localhost:8081/"
 /**
- @"http://localhost:8081/"
  @"http://10.100.1.36:8081/"
- @"http://10.100.1.22:8081/"
  **/
+//LoadType 1为远程加载 2为加载本地资源包
+#define kLoadType 2
 @interface ReactViewController ()
 
 @end
@@ -26,13 +26,14 @@
     if (!_urlString) {
          _urlString = @"index.ios";
     }
-    
-    NSString * strUrl = [NSString stringWithFormat:@"%@%@.bundle?platform=ios&dev=true",kHostName,_urlString];
-//    NSString *bundleName = [NSString stringWithFormat:@"%@.jsbundle",_urlString];
-//    NSString * strUrl = [[NSBundle mainBundle] pathForResource:bundleName ofType:nil];
+    NSString * strUrl;
+    if (kLoadType == 1) {
+        strUrl = [NSString stringWithFormat:@"%@%@.bundle?platform=ios&dev=true",kHostName,_urlString];
+    }else{
+        NSString *bundleName = [NSString stringWithFormat:@"%@.jsbundle",_urlString];
+        strUrl = [[NSBundle mainBundle] pathForResource:bundleName ofType:nil];
+    }
     NSURL * jsCodeLocation = [NSURL URLWithString:strUrl];
-    // jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
-
 
     RCTRootView * rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                          moduleName:@"NativeRNApp"
