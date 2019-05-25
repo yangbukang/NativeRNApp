@@ -21,12 +21,11 @@
 		7702B49D21AD19AC00993BA6 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7702B49621AD19AC00993BA6 /* MainTabBarController.m */; };
 		7702B49E21AD19AC00993BA6 /* TabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7702B49721AD19AC00993BA6 /* TabBarBadge.m */; };
 		7702B49F21AD19AC00993BA6 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7702B49921AD19AC00993BA6 /* TabBarItem.m */; };
+		7755848A22992C51009911A4 /* recommend.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7755848722992C51009911A4 /* recommend.jsbundle */; };
+		7755848B22992C51009911A4 /* mine.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7755848822992C51009911A4 /* mine.jsbundle */; };
+		7755848C22992C51009911A4 /* myDetail.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7755848922992C51009911A4 /* myDetail.jsbundle */; };
 		776541E521AF8A440003674B /* index.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541E421AF8A440003674B /* index.ios.jsbundle */; };
 		776541E821AF8D000003674B /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 776541E621AF8D000003674B /* assets */; };
-		776541E921AF8D000003674B /* Recommend.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541E721AF8D000003674B /* Recommend.jsbundle */; };
-		776541ED21AF8DA10003674B /* PayBack.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541EA21AF8DA10003674B /* PayBack.jsbundle */; };
-		776541EE21AF8DA10003674B /* Mine.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541EB21AF8DA10003674B /* Mine.jsbundle */; };
-		776541EF21AF8DA10003674B /* myDetail.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 776541EC21AF8DA10003674B /* myDetail.jsbundle */; };
 		77A396C72229113700672CBD /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A396C52229113700672CBD /* Toast+UIView.m */; };
 		77B575EA229788FF00E0C3C2 /* UIApplication+Visible.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575CE229788FF00E0C3C2 /* UIApplication+Visible.m */; };
 		77B575F0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B575E0229788FF00E0C3C2 /* UIViewController+AlertViewAndActionSheet.m */; };
@@ -81,12 +80,11 @@
 		7702B49921AD19AC00993BA6 /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
 		7702B49A21AD19AC00993BA6 /* TabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarBadge.h; sourceTree = "<group>"; };
 		7702B49B21AD19AC00993BA6 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		7755848722992C51009911A4 /* recommend.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recommend.jsbundle; path = ReactComponent/bundle/recommend.jsbundle; sourceTree = SOURCE_ROOT; };
+		7755848822992C51009911A4 /* mine.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mine.jsbundle; path = ReactComponent/bundle/mine.jsbundle; sourceTree = SOURCE_ROOT; };
+		7755848922992C51009911A4 /* myDetail.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = myDetail.jsbundle; path = ReactComponent/bundle/myDetail.jsbundle; sourceTree = SOURCE_ROOT; };
 		776541E421AF8A440003674B /* index.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = index.ios.jsbundle; path = ReactComponent/bundle/index.ios.jsbundle; sourceTree = SOURCE_ROOT; };
 		776541E621AF8D000003674B /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ReactComponent/bundle/assets; sourceTree = SOURCE_ROOT; };
-		776541E721AF8D000003674B /* Recommend.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Recommend.jsbundle; path = ReactComponent/bundle/Recommend.jsbundle; sourceTree = SOURCE_ROOT; };
-		776541EA21AF8DA10003674B /* PayBack.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PayBack.jsbundle; path = ReactComponent/bundle/PayBack.jsbundle; sourceTree = SOURCE_ROOT; };
-		776541EB21AF8DA10003674B /* Mine.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Mine.jsbundle; path = ReactComponent/bundle/Mine.jsbundle; sourceTree = SOURCE_ROOT; };
-		776541EC21AF8DA10003674B /* myDetail.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = myDetail.jsbundle; path = ReactComponent/bundle/myDetail.jsbundle; sourceTree = SOURCE_ROOT; };
 		77A396C222290F6200672CBD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		77A396C52229113700672CBD /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
 		77A396C62229113700672CBD /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
@@ -164,11 +162,10 @@
 				5EF6DA401D5EBC0C0003BFC2 /* LaunchScreen.storyboard */,
 				5EF6DA431D5EBC0C0003BFC2 /* Info.plist */,
 				776541E621AF8D000003674B /* assets */,
-				776541E721AF8D000003674B /* Recommend.jsbundle */,
-				776541EB21AF8DA10003674B /* Mine.jsbundle */,
-				776541EC21AF8DA10003674B /* myDetail.jsbundle */,
-				776541EA21AF8DA10003674B /* PayBack.jsbundle */,
 				776541E421AF8A440003674B /* index.ios.jsbundle */,
+				7755848822992C51009911A4 /* mine.jsbundle */,
+				7755848922992C51009911A4 /* myDetail.jsbundle */,
+				7755848722992C51009911A4 /* recommend.jsbundle */,
 				5EF6DA321D5EBC0C0003BFC2 /* Supporting Files */,
 				77A396C222290F6200672CBD /* PrefixHeader.pch */,
 			);
@@ -391,14 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				776541E821AF8D000003674B /* assets in Resources */,
+				7755848B22992C51009911A4 /* mine.jsbundle in Resources */,
+				7755848A22992C51009911A4 /* recommend.jsbundle in Resources */,
 				776541E521AF8A440003674B /* index.ios.jsbundle in Resources */,
-				776541EF21AF8DA10003674B /* myDetail.jsbundle in Resources */,
 				5EF6DA421D5EBC0C0003BFC2 /* LaunchScreen.storyboard in Resources */,
-				776541EE21AF8DA10003674B /* Mine.jsbundle in Resources */,
-				776541ED21AF8DA10003674B /* PayBack.jsbundle in Resources */,
-				776541E921AF8D000003674B /* Recommend.jsbundle in Resources */,
 				5EF6DA3F1D5EBC0C0003BFC2 /* Assets.xcassets in Resources */,
 				5EF6DA3D1D5EBC0C0003BFC2 /* Main.storyboard in Resources */,
+				7755848C22992C51009911A4 /* myDetail.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
