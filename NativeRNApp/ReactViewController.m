@@ -12,7 +12,7 @@
 /**
  @"http://10.100.1.36:8081/"
  **/
-//LoadType 1为远程加载 2为加载本地资源包
+//LoadType 1为加载在线资源包 2为加载本地资源包
 #define kLoadType 2
 @interface ReactViewController ()
 
