@@ -1,0 +1,7 @@
+react-native bundle --entry-file index.ios.js --bundle-output ./bundle/index.ios.jsbundle --platform ios --assets-dest ./bundle --dev false
+
+react-native bundle --entry-file mine.js --bundle-output ./bundle/mine.jsbundle --platform ios --assets-dest ./bundle --dev false
+
+react-native bundle --entry-file recommend.js --bundle-output ./bundle/recommend.jsbundle --platform ios --assets-dest ./bundle --dev false
+
+react-native bundle --entry-file myDetail.js --bundle-output ./bundle/myDetail.jsbundle --platform ios --assets-dest ./bundle --dev false
