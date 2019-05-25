@@ -1,9 +1,0 @@
-react-native bundle --entry-file index.ios.js --bundle-output ./bundle/index.ios.jsbundle --platform ios --assets-dest ./bundle --dev false
-
-react-native bundle --entry-file Mine.js --bundle-output ./bundle/Mine.jsbundle --platform ios --assets-dest ./bundle --dev false
-
-react-native bundle --entry-file Recommend.js --bundle-output ./bundle/Recommend.jsbundle --platform ios --assets-dest ./bundle --dev false
-
-react-native bundle --entry-file myDetail.js --bundle-output ./bundle/myDetail.jsbundle --platform ios --assets-dest ./bundle --dev false
-
-react-native bundle --entry-file PayBack.js --bundle-output ./bundle/PayBack.jsbundle --platform ios --assets-dest ./bundle --dev false
